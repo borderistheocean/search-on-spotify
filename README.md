@@ -1,2 +1,10 @@
 # search-on-spotify
-Search webpage highlighted text and hyperlinks in your Spotify desktop client.
+
+This extension allows any highlighted text in a chrome browser to be searched on Spotify. It currently supports searching text in the desktop client. 
+
+![right click menu](./menu.png "Title")
+
+## TODO
+
+- Add hyperlink text search support
+- Add option to search text on Spotify Web
