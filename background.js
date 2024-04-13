@@ -7,7 +7,7 @@ chrome.contextMenus.create({
 // # TO DO: HANDLE HYPERLINK SEARCHES
 
 chrome.contextMenus.onClicked.addListener(function (info) {
-  if (info.menuItemId == "search-selection") {
+  if (info.menuItemId === "search-selection") {
     function logTabs(tabs) {
       chrome.tabs.sendMessage(tabs[0].id, { search: encodeURIComponent(info.selectionText) });
     }
